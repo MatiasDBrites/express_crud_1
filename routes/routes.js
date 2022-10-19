@@ -9,18 +9,18 @@ import { //importramos todos los Controller que tenemos
     deleteGuild
 } from "../controllers/guilds.js";
 
-const router = express.Router();
+const Router = express.Router();
 
  // Route get all guilds
-router.get('/guild', getGuilds);
+Router.get('/guild', getGuilds);
 // Route get guild by id
-router.get('/guild/:id', getGuildById);
+Router.get('/guild/:id', getGuildById);
 // Route create a new guild
-router.post('/guild', createGuild);
+Router.post('/guild', createGuild);
 // Route update guild by id
-router.put('/guild/:id', updateGuild);
+Router.put('/guild/:id', updateGuild);
 // Route delete guild by id
-router.delete('/guild/:id', deleteGuild);
+Router.delete('/guild/:id', deleteGuild);
 
 // export router
-export default router;
+export default Router;
