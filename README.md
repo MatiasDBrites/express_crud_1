@@ -11,3 +11,7 @@ https://sequelize.org/docs/v6/
 https://www.notion.so/larnu/express-sequalize-postgres-5d24e43dd31c4b8385472f820ac3eb3b
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#examples_of_access_control_scenarios
+
+Este es el avance por ahora me tira este error
+
+[![1.png](https://i.postimg.cc/FszgMv8v/1.png)](https://postimg.cc/dLMyCbJN)
